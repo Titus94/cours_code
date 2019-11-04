@@ -7,17 +7,25 @@ Vous allez travailler ensemble en petits groupes, et découvrir l’écran noir 
 
 ## Organisation:
 
--4 sous-dossiers
+-4 sous-dossiers:
+
     cours_01
+
     cours_02
+
     cours_03
+
     cours_04
--2 fichiers 
+
+-2 fichiers:
+
     README.md
+    
     syllabus.md
 
 ## Contribution à ce cour:
 -Pour le cour: Felix Gaudé
+
 -Pour le projet: Titouan Aubert
 
 ## Contexte du choix de l'option:
