@@ -23,7 +23,7 @@ Maintenant, imagine devoir travailler en équipe sur des dossiers de code conten
 
 -**Pourquoi** : pourquoi cette modification existe-t-elle ?
 
-Avec un tel logiciel, fini le stress et les dossiers remplis de fichiers inutiles ! Bonne nouvelle : ce genre de logiciels existe et on les appelle des "gestionnaires de version" (version control software). J'aime bien ce schéma de GitTower qui explique bien à quoi ils servent : 
+Avec un tel logiciel, fini le stress et les dossiers remplis de fichiers inutiles ! Bonne nouvelle : ce genre de logiciels existe et on les appelle des "gestionnaires de version" (version control software). J'aime bien ce schéma de [GitTower](https://www.git-tower.com/learn/git/ebook/en/desktop-gui/basics/what-is-version-control) qui explique bien à quoi ils servent : 
 
 ![schema](https://i.imgur.com/ClgRIOW.png)
 
@@ -31,16 +31,48 @@ Comprends-tu maintenant pourquoi le gestionnaire de version appelé Git est un s
 
 # 2 Contexte et historique
 
-Tout comme il existe plusieurs explorateurs Internet (Firefox, Chrome, Safari, etc), il existe plein de logiciels de gestion de versions (SVN, BitKeeper, etc). Nous allons travailler avec Git pour ce cours car c'est de très très loin le plus connu et utilisé.
+Tout comme il existe plusieurs explorateurs Internet (Firefox, Chrome, Safari, etc), il existe plein de logiciels de gestion de versions ([SVN](https://subversion.apache.org/), [BitKeeper](https://www.bitkeeper.org/), etc). Nous allons travailler avec Git pour ce cours car c'est de très très loin le plus connu et utilisé.
 
 Git a été créé en 2005 par Linus Torvald, qui a (entre autres) créé le système d'exploitation Linux.
 
-GitHub est un service de mise en ligne de projets "versionnés" via Git, créé en 2008. Il a été racheté par Microsoft en 2018 pour la modique somme de 7,5 milliards de dollars.
+[GitHub](https://github.com/) est un service de mise en ligne de projets "versionnés" via Git, créé en 2008. Il a été racheté par Microsoft en 2018 pour la modique somme de 7,5 milliards de dollars.
 
 En gros, voici ce que font Git et GitHub :
+
 -**Git** est un logiciel de gestion de versions. C'est à dire, un logiciel permettant de photographier à l'instant T les fichiers d'un dossier.
 
 -**GitHub** est un service en ligne qui utilise Git, et qui permet entre autres de : 
+
     Mettre en ligne ses dossiers Git (dans ce qu'on appelle "un repository").
 
     Collaborer à plusieurs sur un même dossier Git.
+
+# 3 Le cours
+## 3.1 Git
+Nous allons maintenant voir :
+
+-Comment installer Git sur ton ordinateur.
+
+-Comment créer un dossier Git (repository).
+
+-Comment faire une photographie (appelé "commit").
+
+-Comment revenir à des versions précédentes.
+
+### 3.1.1 Instalation
+Pour installer Git, rien de plus simple : va sur le site du même nom dans la rubrique [téléchargements](https://git-scm.com/downloads), choisis ton OS, puis télécharge et installe le logiciel. Redémarre ton terminal, et voilà !
+
+|
+## 🚀 ALERTE BONNE 
+Git est un logiciel **CLI** (Command Line Interface). Avec ce type de logiciels, tout passe par le terminal. Il s'oppose à **GUI**, Graphical User Interface.
+
+Exemple : lorsque tu utilises la GUI de ton explorateur de fichiers, tu double-cliques sur un fichier pour l'ouvrir. Avec la CLI, tu tapes la commande *$ open nom_du_fichier* dans ton terminal. Autre exemple : pour créer un dossier en GUI, tu cliques droit -> nouveau dossier en GUI. En CLI, tu tapes *$ mkdir nom_dossier* dans ton terminal.
+
+Bref, toutes les actions de ce cours traiteront de la CLI et passeront par le terminal avec les commandes que nous allons t'enseigner. Il existe [des versions GUI](https://git-scm.com/downloads/guis) pour Git, mais elles ne seront pas enseignées dans ce cours pour plusieurs raisons :
+
+-Un peu comme Photoshop, la version GUI peut faire très peur avec ses milliers de boutons.
+
+-Pas besoin d'avoir moult softwares installés : il suffit d'un terminal et à toi la gloire !
+
+-Le but de cette semaine est de te donner les bases pour comprendre l'univers du développement. La version GUI n'étant pas utilisée par les devs, l'enseigner ne répond pas à notre vision : rendre l'univers du développement plus accessible. 
+|
