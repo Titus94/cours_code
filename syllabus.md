@@ -1,4 +1,4 @@
-##                    SYLLABUS
+#                    SYLLABUS
 
 
 
@@ -21,7 +21,7 @@ Vous allez travailler ensemble en petits groupes, et découvrir l’écran noir 
 Ce programme n’est pas définitif et peut être modifié en fonction des envies des élèves.
 
 
-# **Séance 1**
+## **Séance 1**
 
 -**Date** : 25/09
 
@@ -32,7 +32,7 @@ Ce programme n’est pas définitif et peut être modifié en fonction des envie
 -**Projet** : Faire un projet à plusieurs et le mettre sur GitHub
 
 
-# **Séance 2**
+## **Séance 2**
 
 -**Date** : 09/10
 
@@ -43,7 +43,7 @@ Ce programme n’est pas définitif et peut être modifié en fonction des envie
 -Projet** : Réaliser la page de présentation de votre association puis la mettre en ligne
 
 
-# **Séance 3**
+## **Séance 3**
 
 -**Date** : 23/10
 
@@ -55,7 +55,7 @@ Ce programme n’est pas définitif et peut être modifié en fonction des envie
 
 
 
-# **Séance 4**
+## **Séance 4**
 
 -**Date** : 13/11
 
@@ -68,7 +68,7 @@ Ce programme n’est pas définitif et peut être modifié en fonction des envie
 
 
 
-# **Objectif du cours**
+## **Objectif du cours**
 
 Le cours a pour but principal de faire découvrir le monde des sites webs et de l’informatique. 
 
@@ -103,13 +103,13 @@ De plus, avec la pédagogie de l’éducation de pairs, les étudiants seront ca
 
 
 
-# **Exemple de projet**
+## **Exemple de projet**
 
 Réaliser à plusieurs un site internet au format landing page pour présenter une idée de startup et le mettre en ligne.
 
 
 
-# **Bibliographie succincte**
+## **Bibliographie succincte**
 
 Chacon, Scott ; Straub, Ben. Pro Git. Apress. 2014. 456 pages
 
@@ -123,12 +123,12 @@ Nebra, Mathieu. Réalisez votre site web avec HTML 5 et CSS 3. OpenClassrooms. 2
 
 
 
-# **Langue d’enseignement**
+## **Langue d’enseignement**
 
 Le cours est conçu pour des élèves français ; mais le monde de l’informatique étant majoritairement anglo-saxon, il y aura un peu d’anglais dans les ressources.
 
 
-# **Matériel**
+## **Matériel**
 
 Pour le cours, vous aurez besoin d’un ordinateur.
 
