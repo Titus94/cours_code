@@ -62,7 +62,7 @@ Nous allons maintenant voir :
 ### 3.1.1 Instalation
 Pour installer Git, rien de plus simple : va sur le site du même nom dans la rubrique [téléchargements](https://git-scm.com/downloads), choisis ton OS, puis télécharge et installe le logiciel. Redémarre ton terminal, et voilà !
 
-|
+
 ## 🚀 ALERTE BONNE 
 Git est un logiciel **CLI** (Command Line Interface). Avec ce type de logiciels, tout passe par le terminal. Il s'oppose à **GUI**, Graphical User Interface.
 
@@ -75,4 +75,48 @@ Bref, toutes les actions de ce cours traiteront de la CLI et passeront par le te
 -Pas besoin d'avoir moult softwares installés : il suffit d'un terminal et à toi la gloire !
 
 -Le but de cette semaine est de te donner les bases pour comprendre l'univers du développement. La version GUI n'étant pas utilisée par les devs, l'enseigner ne répond pas à notre vision : rendre l'univers du développement plus accessible. 
-|
+
+Lance (ou relance) ton terminal, puis rentre la ligne suivante :
+        $ git --version
+
+Le terminal devrait te renvoyer quelque chose comme : git version X.XX.X. S'il te renvoie un truc du genre command not found: git, c'est que tu n'as pas installé Git ou relancé ton terminal !
+
+Pour se servir de Git, c'est simple : il suffit de rentrer dans le terminal les commandes $ git truc ou git machin pour lui faire exécuter truc ou machin. Voyons maintenant la commande permettant d'initialiser un dossier git.
+
+### 3.1.2 Mise en place de ton dossier : git init et git status
+## ⚠️ ALERTE ERREUR COMMUNE
+Quand on débute dans le code, on a tendance à faire git init à la volée un peu partout. Il ne faut pas. Voici les types de dossiers dans lesquels tu dois initialiser des repository :
+-Un dossier contenant le code de ton projet Google.
+
+-Un dossier contenant le projet d'un site internet.
+
+-Un dossier contenant un projet clair et défini.
+
+Voici où **tu ne dois pas** faire git init :
+
+-Le dossier qui contient tout ton ordinateur (exemple : exécuter git init en première ligne de commande de ton terminal).
+
+-Ton dossier Desktop ou My Documents.
+
+-Un dossier the_hacking_project contenant tous tes projets de THP.
+
+-Un dossier qui contiendrait plusieurs dossiers de projets différents.
+
+En général la *rule of thumbs* est : un git init par projet. Si jamais tu as fait git init dans un dossier qui n'est pas bon, tu peux supprimer le dossier caché contenant toutes les informations de git en faisant :
+        $ rm -rf .git
+
+Et maintenant, quelle est la commande la plus importante quand on manipule git ? Réponse : git status. Cette commande permet de te donner en un rien de temps l'état de ton projet git. Tu peux tester en entrant git status dans un repository git :
+
+    $ git status
+    On branch master
+
+    No commits yet
+
+    nothing to commit (create/copy files and use "git add" to track)
+
+Le logiciel git te dit actuellement qu'il n'y a rien dans ton dossier, et donc rien à photographier ("nothing to commit"). Voyons maintenant comment faire un commit, justement.
+
+
+
+
+
